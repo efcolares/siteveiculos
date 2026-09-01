@@ -1,0 +1,1604 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+font-family: 'Cabin';
+src: url('imagens/fontes/cabin/Cabin-MediumItalic.eot');
+src: url('imagens/fontes/cabin/Cabin-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('imagens/fontes/cabin/Cabin-MediumItalic.woff') format('woff'),
+  url('imagens/fontes/cabin/Cabin-MediumItalic.ttf') format('truetype'),
+  url('imagens/fontes/cabin/Cabin-MediumItalic.svg#cabin') format('svg');
+  font-weight:normal; 
+  font-style:normal;
+}
+
+@font-face {
+font-family: 'myriadpro_bold';
+src: url('imagens/fontes/myriadpro_bold/myriadpro_bold.eot');
+src: url('imagens/fontes/myriadpro_bold/myriadpro_bold.eot?#iefix') format('embedded-opentype'),
+  url('imagens/fontes/myriadpro_bold/myriadpro_bold.woff') format('woff'),c
+  url('imagens/fontes/myriadpro_bold/myriadpro_bold.ttf') format('truetype'),
+  url('imagens/fontes/myriadpro_bold/myriadpro_bold.svg#myriadpro_bold') format('svg');
+  font-weight:normal; 
+  font-style:normal;
+}
+
+
+
+
+
+
+#mensagemcontato{
+	
+	color:#fff;
+	
+}
+
+body {
+	
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+		
+}
+
+
+
+.fonte {
+	
+	font-family:Cabin;
+	
+}
+
+header {
+				position:relative;
+				float: left;
+				top:0;
+				
+				width:100%;
+				height:auto;
+				margin:0 auto 0 auto;
+				
+				
+	z-index:99;
+	
+	text-align: center;
+	
+	
+	
+	
+
+	
+	
+				
+			}
+
+#header_fundo {
+	
+		position:relative;
+	margin:0 auto 0 auto;
+	float:left;
+	width:100%;
+	height:auto;
+	top:0;
+	
+background: rgb(252,227,20);
+background: linear-gradient(190deg, rgba(252,227,20,1) 0%, rgba(255,243,143,1) 35%, rgba(252,227,20,1) 100%);
+	
+	-webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.3);
+box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.3);
+	
+}
+
+
+	#linha_topo {
+		
+		position:relative;
+		width:100%;
+		margin:0 auto 0 auto;
+		float:left;
+		height: 45px;
+		background: #000;
+		text-align: center;
+		
+		vertical-align: middle;
+		
+		
+	}
+	
+	#conteudo {
+		
+		
+		
+		
+		position:relative;
+		float:left;
+		margin:0 auto 0 auto;
+		width:100%;
+		min-height:300px;
+		
+		padding-bottom: 120px;
+		padding-top: 40px;
+		
+		
+    background:#fff;
+	
+	}
+	
+	
+	
+	
+
+
+#centro_topo {
+		
+		
+		width:100%;
+	max-width:1200px;
+		height:auto;
+		margin:0 auto 0 auto;
+		text-align:right;
+			 
+ z-index:9999;
+	
+	float: none;
+}
+
+#logotopo {
+	
+ 	position:relative;
+	display: inline-block;
+ 	float:left;
+ 	width:auto;
+ 	height: auto;
+	text-align: left;
+	
+	z-index: 999;
+	
+	margin:15px auto -60px auto;
+	
+ -webkit-animation: moveDown 1s 1s 1 normal both;
+ -moz-animation: moveDown 1s 1s 1 normal both;
+ -ms-animation: moveDown 1s 1s 1 normal both;
+ -o-animation: moveDown 1s 1s 1 normal both;
+ animation: moveDown 1s 1s 1 normal both;
+	
+ 
+}
+
+#logotopo img {
+	
+	width:340px;
+	
+	
+}
+
+#logotopo  img.letraslogo{
+	
+	width:200px;
+	
+	
+}
+
+#mensagemcontato {
+	
+	
+	color:#000;
+}
+
+
+
+#info_topo {
+	
+position:relative;
+display: inline-block;
+float:right;
+width:auto;
+height: auto;
+text-align: right;
+margin:20px auto 20px auto;
+
+	
+	z-index: 999999;
+	
+}
+
+
+
+#limite_horizontal {
+	
+	position:relative;
+	width:100%;
+	max-width:1240px;
+	margin:0 auto 0 auto;
+	text-align: center;
+	
+	
+}
+
+
+
+#telefone_topo a, #endereco_topo a, #celular a, #email_topo a  {
+	
+	
+	
+	margin: 0 auto 0 auto;
+	width:auto;
+	
+
+
+	color:#0aaa5a;
+	text-decoration: none;
+	
+	font-family: 'Cabin';
+	
+	
+}
+
+
+#dados_linha_topo {
+	
+
+
+	position:relative;
+		display:inline-block;
+		margin:15px auto 0 auto;
+		float:right;
+		width:auto;
+	text-align: right;
+	
+	color:#fff;
+	font-size: 14px;
+	
+	font-family: 'Cabin';
+	
+	
+}
+	
+
+	
+	
+		#servicos_topo {
+		
+		position:relative;
+		display:inline-block;
+		margin:15px auto 0 auto;
+		float:left;
+			width:100%;
+				text-align: center;
+			
+				
+	color:#fff;
+	font-size: 16px;
+	
+	font-family: 'Cabin';
+			
+			text-transform: uppercase;
+		
+	}
+
+
+#telefone_topo {
+	
+	
+		position:relative;
+	display:block;
+	float:left;
+	margin: 0;
+	width:auto;
+	
+	text-align: right;
+	
+	font-family: Cabin;
+	font-size: 24px;
+	color:#0aaa5a;
+	
+	
+}
+
+
+#endereco_topo, #email_topo {
+
+	
+		position:relative;
+	display:block;
+	
+	margin: 0 5px 0 5px;
+	width:auto;
+	text-align: right;
+	
+	font-family: Cabin;
+	font-size: 16px;
+	color:#0aaa5a;
+	
+}
+
+
+@-webkit-keyframes moveDown {
+  0% {
+    -webkit-animation-timing-function: ease-in;
+	-moz-animation-timing-function: ease-in;
+	-ms-animation-timing-function: ease-in;
+	-o-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+	  
+	  
+-webkit-transform: translateY(-230px);
+-moz-transform: translateY(-230px);
+-ms-transform: translateY(-230px);
+-o-transform: translateY(-230px);
+transform: translateY(-230px);
+	
+	opacity:0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+	
+	top:-100px;
+
+	
+
+  }
+
+	
+	
+	
+	
+  100% {
+    -webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	-o-animation-timing-function: linear;
+	animation-timing-function: linear;
+	
+	
+-webkit-transform:  translateY(10px);
+-moz-transform:  translateY(10px);
+-ms-transform:  translateY(10px);
+-o-transform:  translateY(10px);
+transform:  translateY(10px);
+	
+	opacity:1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+	
+	
+  }
+	
+	
+	
+  
+ 
+}
+
+
+
+#banner {
+	position:relative;
+	
+	width:100%;
+	max-width: 1920px;
+	top:0;
+	height:auto;
+	
+	margin:0 auto 0 auto;
+	
+	text-align: center;
+	float:left;
+	
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.48);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.48);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.48);
+	
+	border-bottom: double;
+	border-width: 5px;
+	border-color: #0aaa5a;
+
+z-index: -9;
+		
+}
+
+#cartoes_credito {
+	
+		
+	position:relative;
+	width:100%;
+	float:left;
+	margin:20px auto 20px auto;
+	
+	
+	text-align: left;
+	
+}
+
+#marcas_produtos {
+	
+		
+	position:relative;
+	width:100%;
+	float:left;
+	margin:0 auto 0 auto;
+	
+	
+	text-align: center;
+	
+}
+
+#marcas_produtos ul, #cartoes_credito ul {
+	
+	
+	width:auto;
+
+	margin:0 auto 20px auto;
+	float:none;
+	
+	
+
+	
+	
+}
+
+#cartoes_credito ul {
+	
+	
+	float: left;
+	
+}
+
+#marcas_produtos ul li {
+	
+	display:inline-block;
+	text-decoration: none;
+	list-style: none;
+	max-width: 80px;
+	height: auto;
+	margin:5px;
+	float:none;
+	
+			text-align: center;
+}
+
+
+#cartoes_credito ul li {
+	
+		display:inline-block;
+	text-decoration: none;
+	list-style: none;
+	max-width: 80px;
+	height: auto;
+	margin:5px;
+	float:none;
+	
+	
+	text-align: left;
+	
+}
+
+
+#marcas_produtos ul li img, #cartoes_credito ul li img {
+	
+	width:100%;
+	
+}
+
+#cartoes_credito h4 {
+	
+	font-family: Cabin;
+	font-size: 22px;
+	color:#0aaa5a;
+	text-align: left;
+	
+}
+
+
+#redessociais a {
+		font-size: 32px;
+	text-decoration: none;
+	color:#0aaa5a;
+
+}
+
+#geraltelefonetopo {
+		width:1024px;
+		margin:auto;
+		position:relative;
+		float:left;
+
+}
+
+
+
+
+	
+#telefone_rodape , #telefone_rodape a, #celular_rodape a, #celular_rodape {
+	
+		text-align: left;
+		font-family:'Cabin';
+		font-size: 32px;
+		color:#0aaa5a;
+	text-decoration: none;
+	
+		text-shadow: 0px 2px 2px rgba(50, 50, 50, 0.1);
+		
+}
+
+
+
+
+
+#menugeral {
+	position:relative;
+	
+		width:100%;
+		height:auto;
+		margin:0 auto 0 auto;
+		text-align:center;
+	
+
+
+		display:block;
+	
+	
+	z-index: 999999;
+		
+	
+}
+
+
+/*menu novo */
+/* Fundo do menu */
+#menu {
+	position:relative;
+
+	
+	width: 100%;
+	height:auto;
+	margin: 0 auto 0 auto;
+	float:left;
+	
+	
+	
+	text-align: right;
+		
+	background-color: #0aaa5a;
+	
+z-index: 9;
+
+	
+		
+}
+
+
+
+
+#reservas {
+	
+	position:relative;
+	width:100%;
+	float:left;
+	
+	
+	
+	margin:0 auto 0 auto;
+
+	
+	z-index: 1;
+}
+
+
+/*
+#menu ul {
+
+			
+		list-style:none;
+		height:42px;
+
+		border-radius:20px;
+			
+}
+ 
+#menu ul li { 
+
+		display: inline;
+
+		
+	
+}
+ 
+#menu ul li a {		
+		font-family:'Cabin';
+		font-size: 25px;
+		text-shadow: 2px 2px #000;		
+		color: #fff;
+
+		text-decoration: none;
+		padding: 20px;
+		position:relative;
+		top:130px;
+		text-transform:uppercase;
+		border-radius: 8px;
+
+}
+ 
+#menu ul li a:hover {
+		border-radius: 8px;
+		color:#fcfc92;
+		background:url(images/menuhover.png) repeat;
+		text-shadow: 2px 2px #000;	
+
+		
+	
+}
+*/
+
+
+
+
+/*
+#conteudo {
+	position:relative;
+	width:100%;
+	height: auto;
+	margin:0 auto 0 auto;
+	float:left;
+	
+	text-align: center;
+
+	
+background: #f68d1f;
+background: -moz-linear-gradient(left, #f68d1f 1%, #fbc07f 51%, #f68d1f 99%);
+background: -webkit-linear-gradient(left, #f68d1f 1%,#fbc07f 51%,#f68d1f 99%);
+background: linear-gradient(to right, #f68d1f 1%,#fbc07f 51%,#f68d1f 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f68d1f', endColorstr='#f68d1f',GradientType=1 );
+	
+
+}
+
+*/
+
+
+h1, #conteudo h1 {		
+		font-family:'Cabin';
+		font-size: 42px;
+		font-weight: bold;
+		color: #0aaa5a;
+	text-align: left;
+		
+}
+
+p {
+		font-family:'Cabin';		
+		font-size: 18px;
+		text-align:justify;
+		padding:0;
+		color: #0aaa5a;
+		
+}
+
+
+footer {
+	
+	position:relative;
+	float:left;
+		width:100%;
+		height:auto;
+	min-height:350px;
+	
+	background: rgb(255,228,0);
+background: linear-gradient(190deg, rgba(255,228,0,1) 0%, rgba(255,234,57,1) 100%);
+	
+	margin:0 auto 0 auto;
+	
+		
+		bottom:0;
+		
+		z-index:99;
+	
+
+}
+
+posfooter {
+	
+	position:relative;
+	float:left;
+	width:100%;
+	height:50px;
+	margin:0 auto 0 auto;
+	
+	background-color: #0aaa5a;
+	
+}
+
+#rodape {
+	
+	position:relative;
+	display:block;
+		width:100%;
+		max-width:1200px;
+		height:auto;
+		margin:0 auto 0 auto;
+		bottom:0;
+	
+
+
+	
+}
+
+
+
+
+#endereco_rodape a {
+	
+	
+	text-decoration: none;
+	
+	font-family: Cabin;
+	font-weight: bold;
+	
+	font-size:18px;
+	color:#0aaa5a;
+	
+		text-shadow: 0px 2px 2px rgba(50, 50, 50, 0.1);
+	
+	
+}
+
+#fundo_logo_rodape {
+	
+	position:relative;
+	display:block;
+	width:100%;
+	float:left;
+	margin:-100px auto 5px auto;
+	text-align: center;
+	
+	
+	background-color: #0aaa5a;
+	
+}
+
+
+#logo_rodape {
+	
+	position:relative;
+	display:block;
+	width:auto;
+
+	margin:20px auto 20px auto;
+	
+	text-align: center;
+	
+}
+
+
+#logo_rodape img {
+	
+	width:280px;
+}
+
+
+
+
+.rodapeh1 {
+	
+	position:relative;
+	width:auto;
+	margin:20px auto 0 auto;
+	
+	
+	font-family: Cabin;
+	font-size: 32px;
+	font-weight: bold;
+	color: #0aaa5a;
+	
+		text-shadow: 0px 2px 2px rgba(50, 50, 50, 0.1);
+	
+}
+
+#rodape_mapadosite .rodapeh1 {
+	
+	text-align: center;
+}
+
+
+
+
+
+
+#rodape_mapadosite ul {
+padding:0;
+margin:0;
+	
+	
+	
+
+	
+	
+}
+
+#rodape_mapadosite ul li {
+	
+		
+	
+	list-style: none;
+		text-align: center;
+	
+	
+}
+
+#rodape_mapadosite ul li a {
+	
+	font-family: Cabin;
+	font-size: 20px;
+	text-decoration: none;
+	color: #0aaa5a;
+	text-align: left;
+	
+	text-transform: uppercase;
+
+		text-shadow: 0px 2px 2px rgba(50, 50, 50, 0.1);
+	
+}
+
+
+#rodape_blockleft {
+	
+	position:relative;
+	display:inline-block;
+	width:35%;
+	float:left;
+	margin:0 5px 0 5px;
+	text-align: left;
+	
+	
+	
+	
+}
+
+#rodape_blockright {
+	
+	position:relative;
+	display:inline-block;
+	width:32%;
+	float:left;
+	margin:0 auto 40px auto;
+	min-width:280px;
+	text-align: left;
+	
+	
+}
+
+
+
+
+#rodape_servicos {
+	
+	position:relative;
+	display:inline-block;
+	width:26%;
+	min-width:300px;
+	float:right;
+	margin:0 auto 40px auto;
+	
+	text-align: left;
+	
+	
+}
+
+#rodape_servicos img {
+	
+	width:40px;
+
+	
+}
+
+#rodape_servicos img, #rodape_servicos p {
+	
+	position:relative;
+	float:left;
+
+	display:inline-block;
+	margin: 2px;
+	
+}
+
+#rodape_servicos p {
+	
+	
+	background-color: #c23c0b;
+	padding:10px 10px 10px 30px;
+	margin:3px auto 0 -25px;
+	
+	font-family: Cabin;
+	font-size: 14px;
+	color:#fff;
+	
+
+	
+	
+}
+
+#servico {
+	position:relative;
+	width:100%;
+	display:block;
+	margin:0 auto 0 auto;
+	height:50px;
+	
+}
+
+
+.icone {
+	
+	z-index: 10;
+	
+	
+}
+
+.textoicone {
+	
+	z-index: 1;
+	
+}
+
+
+.loguinho  {
+	
+	position:relative;
+	margin:25px auto 0 auto;
+	bottom:0;
+	width: 100%;
+	text-align: center;
+	z-index: 99999999999;
+
+
+}
+
+
+
+
+label {
+	
+	
+	font-size: 14px;
+	
+}
+
+
+
+
+
+
+
+
+
+/* SELEÇÃO */
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
+
+
+#item_lista {
+display:inline-block;
+width:95%;
+margin: 0 auto 0 auto;
+height: auto;
+vertical-align:top;
+padding-top:20px;
+text-align:left;
+margin-left:20px;
+position:relative;
+float:left;
+	
+}
+
+#politica_reserva {
+	top:0px;
+	position:relative;
+	float:left;
+	width:100%;
+	border-radius:10px;
+
+	
+}
+
+#politica_reserva h1 {
+	text-align:center;
+	padding:0px;
+	
+}
+
+#politica_reserva p {
+	color:#FFF;
+	font-size:18px;
+	
+}
+
+#caixa_album {
+	
+	
+	width:auto;
+	position:relative;
+	float:left;
+	display:inline-block;
+	padding-left:15px;
+	padding-right:15px;
+	border-radius:10px;
+	
+	
+	
+	margin:0 auto 20px auto;
+	
+	height:auto;
+	
+
+}
+
+
+
+
+
+
+#titulo_bloco_left h2, #titulo_bloco_center h2, #titulo_bloco_right h2 {
+	
+	font-family: 'Cabin';
+	font-size:2.2vw;
+	color: #003e1f;
+	text-align: center;
+	margin: 0 auto 10px auto;
+
+}
+
+.carousel-caption h2 {
+	
+	
+			
+	font-family: 'Cabin';
+	font-size:3vw;
+	color: #003e1f;
+	font-weight: bold;
+	
+	background-color:rgba(255,255,255,0.6);
+	padding: 10px;
+	
+}
+
+
+.carousel-caption h4 {
+	
+	
+			
+	font-family: 'Cabin';
+	font-size:1.5vw;
+	color: #003e1f;
+	
+	background-color:rgba(255,255,255,0.6);
+	padding: 10px;
+	
+}
+
+
+
+
+#localizacao {
+	position:relative;
+	width:100%;
+	height:auto;
+	margin:0 auto 0 auto;
+	float:left;
+	
+}
+
+
+#alvo {
+	
+	position:absolute;
+	width:100%;
+	top:-200px;
+	left:-40px;
+	height: auto;
+	float: left;
+	margin:0 auto 0 auto;
+	z-index: 0;
+	  transform: rotate(-5deg) skew(15deg) scale(1);
+}
+
+
+@media screen and (max-width: 1600px) {
+	
+	
+
+		
+#menu a {
+		font-size: 	16px;
+}
+			
+	
+}
+
+
+@media screen and (max-width: 1280px) {
+
+
+
+#menu a{
+	
+	font-size: 	16px;
+	
+}
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+	
+	
+	
+	#cartoes_credito h4 {
+	
+	font-family: Cabin;
+	font-size: 18px;
+	color:#0aaa5a;
+	text-align: center;
+	
+}
+	
+	
+	#marcas_produtos ul, #cartoes_credito ul {
+	
+	
+	width:auto;
+
+	margin:0 auto 20px auto;
+	float:none;
+	
+	
+
+	
+	
+
+
+}
+	
+	
+	#cartoes_credito {
+	
+		
+	position:relative;
+	width:100%;
+	float:left;
+	margin:20px auto 20px auto;
+	
+	
+	text-align: center;
+	
+}
+	
+	
+	#cartoes_credito ul li {
+	
+		display:inline-block;
+	text-decoration: none;
+	list-style: none;
+	max-width: 80px;
+	height: auto;
+	margin:5px 10px;
+	float:none;
+	
+	
+	text-align: center;
+	
+}
+	
+	
+	#marcas_produtos ul li {
+	
+
+	max-width: 40px;
+
+}
+	
+	
+	
+	
+	.barra_div_telefone_quebra {
+		
+		display:block;
+		
+	}
+	
+	
+	
+	#servicos_topo {
+		
+		font-size: 14px;
+		display:inline-block;
+		margin:5px auto 0 auto;	
+				
+	}
+	
+	
+#logotopo {
+	
+ 	position:relative;
+	display: block;
+ 	float:left;
+ 	width:100%;
+ 	height: auto;
+	text-align: left;
+	
+	z-index: 999;
+	
+	margin:20px auto -20px auto;
+	}
+	
+	
+	
+	
+
+
+	
+
+#limite_horizontal {
+	
+	position:relative;
+	width:100%;
+	
+	margin:0 auto 0 auto;
+	text-align: center;
+	float: none;
+	
+}	
+	
+	
+#rodape_mapadosite ul li {
+	
+		
+	
+	list-style: none;
+		text-align: center;
+	
+	
+}
+	
+	
+	#rodape_blockleft {
+	
+	position:relative;
+	display:block;
+	width:96%;
+	float:left;
+	margin:0 2% 0 2%;
+	text-align: center;
+	
+	
+	
+	
+}
+
+#rodape_blockright {
+	
+	position:relative;
+	display:block;
+	width:auto;
+	float:none;
+	margin:0 auto 40px auto;
+	min-width:280px;
+	text-align: center;
+	
+	
+}
+
+
+
+
+
+#rodape_servicos {
+	
+	position:relative;
+	display:block;
+	width:auto;
+	
+	float:none;
+	margin:0 auto 40px auto;
+	
+	text-align: center;
+	
+	
+}
+	
+	
+	
+	
+#titulo_bloco_left h2, #titulo_bloco_center h2, #titulo_bloco_right h2 {
+	
+	font-family: 'Cabin';
+	font-size:6vw;
+	color: #003e1f;
+	text-align: center;
+	margin: 0 auto 10px auto;
+
+}
+
+.carousel-caption h2 {
+	
+	
+			
+	font-family: 'Cabin';
+	font-size:4vw;
+	color: #003e1f;
+	font-weight: bold;
+	
+	background-color:rgba(255,255,255,0.6);
+	padding: 10px;
+	
+}
+
+
+.carousel-caption h4 {
+	
+	
+			
+	font-family: 'Cabin';
+	font-size:3.5vw;
+	color: #003e1f;
+	
+	background-color:rgba(255,255,255,0.6);
+	padding: 10px;
+	
+}
+	
+	
+	
+	#logotopo {
+	
+ 	position:relative;
+	display: block;
+ 	float:left;
+ 	width:100%;
+ 	height: auto;
+	text-align: center;
+		margin-bottom: 20px;
+		
+		top:20px;
+		
+
+		
+		
+		
+	}
+	
+	#logotopo img {
+		
+		width:260px;
+		
+		
+	}
+	
+	
+	
+	
+	#endereco_rodape {
+
+		
+		width:90%;
+		margin-bottom: 20px;
+	
+}
+	
+	
+	.header {
+			
+				height:60px;
+				
+				
+			}
+	
+	
+	
+
+h1, #conteudo h1 {		
+		font-family:'Cabin';
+		font-size: 32px;
+		font-weight: bold;
+		color: #0aaa5a;
+	text-align: center;
+		
+}
+	
+	
+	 p {
+		font-family:'Cabin';		
+		font-size: 16px;
+		text-align:justify;
+		padding:5px;
+		color: #0aaa5a	;
+		
+}
+	
+	
+	
+	
+
+	
+	
+
+	#mapadosite {
+		
+		display:block;
+	width:100%;
+		
+		text-align: center;
+		
+	
+		
+	}
+	
+
+	
+#telefone_rodape {
+		width:100%;
+		position:relative;
+		display:block;
+		float:none;
+	text-align: center;
+		
+	margin:0 0 0 0;
+	
+		
+	
+	
+	}
+	
+#telefone_rodape a {	
+		font-family:'Cabin';
+		font-size: 28px;
+		
+
+	margin-bottom: 20px;
+		
+}
+	
+#celular_rodape {
+		width:100%;
+		position:relative;
+		display:block;
+		float:none;
+	text-align: center;
+		
+	margin:0 0 0 0;
+	
+		
+	
+	
+	}	
+	
+#celular_rodape a {	
+		font-family:'Cabin';
+		font-size: 28px;
+		
+
+	margin-bottom: 20px;
+		
+}
+
+	
+
+	
+	#menu {
+		
+		margin-top:0;
+		
+	}
+
+
+#menu a {
+
+	
+	font-size: 	22px;
+
+	
+}
+
+
+
+
+
+#topo {
+	
+			height:100px;
+		   -moz-background-size: 100% 100px;
+			-webkit-background-size: 100% 100px;
+			background-size: 100% 100px;
+	
+}
+
+
+	
+	
+#info_topo {
+	
+position:relative;
+display: block;
+float:left;
+width:100%;
+height: auto;
+text-align: center;
+margin:20px auto 20px auto;
+	
+	
+	}
+	
+	
+		#conteudo {
+		
+		
+		
+		
+		position:relative;
+		float:left;
+		margin:0 3% 0 3%;
+		width:94%;
+		height:auto;
+		
+		padding-bottom: 120px;
+		padding-top: 40px;
+		
+		
+
+		
+	
+
+	
+	
+	}
+	
+	#email_topo {
+		
+			font-size: 22px;
+			text-align: center;
+	}
+	
+	
+	#telefone_topo, #endereco_topo {
+	
+	
+		position:relative;
+	display:block;
+	float:none;
+	margin: 0 5px 0 5px;
+	width:100%;
+	
+	font-family: Cabin;
+	font-size: 16px;
+	text-align: center;
+
+
+	
+}
+	
+	#telefone_topo {
+		
+		font-size: 22px;
+			font-weight: bold;
+	}
+	
+	
+	.barra_div_telefone_endereco {
+		
+		display: none;
+		
+	}
+	
+	
+	
+
+}
+
